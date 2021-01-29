@@ -27,11 +27,8 @@ namespace GenericOdev
 
             for (int i = 0; i < TempKey.Length; i++)
             {
-                for (int j = 0; j < Tempvalue.Length; j++)
-                {
                     key[i] = TempKey[i];
-                    value[j] = Tempvalue[j];
-                }
+                    value[i] = Tempvalue[i];
             }
 
             key[key.Length - 1] = keys;
