@@ -8,7 +8,9 @@ namespace GenericOdev
         {
             MyDictionary<string, int> isimYas = new MyDictionary<string, int>();
             isimYas.Add("Serdar", 24);
-            isimYas.Add("Sesdardar", 234);
+            isimYas.Add("Engin", 34);
+
+            isimYas.Show();
         }
     }
 }

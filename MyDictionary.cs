@@ -37,5 +37,14 @@ namespace GenericOdev
             key[key.Length - 1] = keys;
             value[value.Length - 1] = values;
         }
+
+        public void Show()
+        {
+            for (int i = 0; i < key.Length; i++)
+            {
+                Console.WriteLine($"{key[i]}: {value[i]}");
+            }
+        }
+
     }
 }
